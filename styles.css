@@ -50,7 +50,7 @@ header{
 
 .first-head{
         color: #FFF;
-        text-align: center;
+        /* text-align: center; */
         font-family: 'Merriweather', serif;
         font-size: 72px;
         font-weight: 900;
@@ -110,6 +110,7 @@ main{
     max-height:600px;
     position: relative;
     margin-left:120px;
+    
 }
 
 .deal .img{
@@ -133,7 +134,7 @@ main{
     position:absolute;
     max-width: 650px;
     top:130px;
-    left:130px;
+    margin-left:60px;
     width:640px;
     
     
@@ -242,6 +243,11 @@ main{
     width: 364.844px;
         height: 364.844px;
         padding:40px;
+}
+
+.portfolio img:hover {
+    border:2px solid black;
+    border-radius:10px;
 }
 .offer .child2{
 width: 463px;
